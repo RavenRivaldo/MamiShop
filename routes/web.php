@@ -19,5 +19,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//Path: routes\web.php 
-Route::get('/', 'HomeController@index')->name('home');
